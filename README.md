@@ -1,29 +1,24 @@
-# climateBERT-analysis
-
 # Análisis de la Calidad de Reportes Ambientales en España (2015-2022)
 
-Este repositorio contiene el código y los datos asociados al paper:  
+Este repositorio contiene el código y datos utilizados en el estudio:  
 **"Evaluación de la Regulación en la Calidad de la Divulgación Ambiental: Un Análisis con Transformers Fine-Tuned"**.
 
 ## 📌 Resumen
-Investigamos cómo la regulación afecta la calidad de los reportes ambientales de empresas españolas entre 2015-2022.  
-Para ello, utilizamos técnicas avanzadas de NLP, como **ClimateBERT** y una versión fine-tuned en **ClimaText**, para analizar 729 reportes corporativos.
+El estudio evalúa cómo la regulación ha impactado la calidad de los reportes ambientales en empresas españolas entre 2015-2022.  
+Para ello, utilizamos técnicas avanzadas de NLP como **ClimateBERT** y una versión fine-tuned en **ClimaText** para analizar 729 reportes.
 
-Nuestros hallazgos sugieren que la regulación ha mejorado la especificidad y el compromiso en los reportes, especialmente en textos relacionados con riesgos.
+## 📂 Contenido del repositorio
+- `Climate_Disclosure_Analysis.ipynb` – Notebook con el análisis completo.
+- `data/` – Carpeta donde se deben colocar los reportes a analizar.
+- `results/` – Carpeta donde se guardan gráficos y tablas generadas.
+- `requirements.txt` – Lista de dependencias para ejecutar el código.
+- `.gitignore` – Archivos a ignorar en GitHub.
+- `LICENSE` – Licencia de uso del código.
+- `Paper.pdf` – PDF del artículo (opcional).
 
-## 📂 Estructura del repositorio
-- `notebooks/` – Jupyter Notebooks con análisis de datos, entrenamiento de modelos y evaluación.
-- `src/` – Código estructurado en Python para preprocesamiento y análisis.
-- `data/` – (Opcional) Datos utilizados o instrucciones para obtenerlos.
-- `results/` – Tablas y visualizaciones clave obtenidas.
-- `requirements.txt` – Lista de dependencias.
-- `Reproducibility.md` – Guía para reproducir el estudio.
-- `Paper.pdf` – Versión en PDF del artículo.
+## 🚀 Instalación y ejecución
+1. Clona este repositorio en tu máquina local:
+   ```bash
+   git clone https://github.com/usuario/climate-disclosure-analysis.git
+   cd climate-disclosure-analysis
 
-## 🚀 Instalación
-Clona este repositorio e instala las dependencias:
-
-```bash
-git clone https://github.com/usuario/nlp-climate-disclosure.git
-cd nlp-climate-disclosure
-pip install -r requirements.txt
