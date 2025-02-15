@@ -1,0 +1,24 @@
+# Core libraries
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+
+# NLP & Text Processing
+nltk
+transformers
+torch
+PyPDF2
+tqdm
+pytesseract
+wand
+Pillow  # Required for pytesseract image processing
+
+# Machine Learning & Topic Modeling
+gensim
+datasets
+
+# Jupyter Notebook support (optional but recommended)
+notebook
+ipykernel
